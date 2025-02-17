@@ -6,7 +6,7 @@ Ingeniería Civil
 Algoritmos y Programación 
 ESI232B2
 17/02/25
-minutos 
+15 minutos 
 """
 # Declaraciones 
 MULTIPLO_10 = 10
@@ -15,7 +15,7 @@ MULTIPLO_10 = 10
 numero = int(input("Introduzca un número: "))
 
 # Proceso
-if numero // MULTIPLO_10 == 0:
+if numero / MULTIPLO_10 == 0:
     multiplo = 'si es múltiplo de 10' 
 else:
     multiplo = 'no es múltiplo de 10' 
