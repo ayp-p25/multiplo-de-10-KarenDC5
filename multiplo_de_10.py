@@ -10,7 +10,7 @@ minutos
 """
 
 # Entradas
-numero = int(input("Introduzca un número: "))
+numero = float(input("Introduzca un número: "))
 
 # Proceso
 if numero % 10 == 0:
